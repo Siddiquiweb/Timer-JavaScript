@@ -2,7 +2,7 @@ var timer;
 var ele = document.getElementById('timer');
 
 (function () {
-    var sec = 8;
+    var sec = 0;
     timer = setInterval(() => {
             ele.innerHTML = '00:' + sec;
             sec++;
